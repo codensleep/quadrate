@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+ }
+
+.two {
+    background: black;
+}
+.two-content {
+    margin-top: 200px;
+    color: white;
+}
+.wrapper {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    'one, two'
+}
+.social {
+    margin-top: 60px;
+}
+.social ul {
+    text-align: center;
+}
+.social ul li {
+    display: inline;
+    text-decoration: none;
+}
+.text {
+    margin-left: 20px;
+
+}
+.fab {
+    margin-right: 30px;
+}
+.fas {
+    margin-right: 10px;
+}
+h2 {
+font-family: 'Kumbh Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+}
+p {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+}
+a {
+    color: white
+}
+a:hover {
+    color: grey;
+    opacity: 0.6;
+    transition: 0.5s;
+}
